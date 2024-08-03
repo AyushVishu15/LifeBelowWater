@@ -1,0 +1,154 @@
+@media only screen and (max-width:1140px){
+    .nav-list{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        height: 100vh;
+        width: 200px;
+        flex-direction: column;
+        background-color: #333;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        display: none; 
+    }
+    .nav-list.active { 
+        display: flex;
+        transform: translateX(0);
+    }
+
+    .nav-list li {
+        margin: 50px 0;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .rightNav {
+        display: none;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        transform: all 0.3s ease-out;
+        height: 444;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .column {
+        width: 100%;
+        display: block;
+    }
+    .images {
+        flex-direction: row; /* Maintain horizontal layout */
+        flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+        justify-content: center; /* Center images horizontally */
+    }
+    .images img {
+        width: calc(25% - 40px); /* Reduce width for smaller screens */
+        margin: 10px;
+        transform: translateY(5px);/* Adjust margin for better spacing */
+    }
+    .update-wrapper {
+        width: 90%; /* Adjust width to 90% of the viewport width */
+        height: auto; /* Let height adjust automatically */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .update-box {
+        height: auto; /* Let the height of the box adjust automatically */
+    }
+
+    .update-heading {
+        font-size: 1.5rem; /* Adjust font size */
+        margin-bottom: 15px; /* Reduce space below the heading */
+    }
+
+    .update-content {
+        animation: none; /* Disable scrolling animation on smaller screens */
+        height: auto; /* Let the content adjust its height automatically */
+        overflow: visible; /* Make overflow visible */
+    }
+
+    .update-content p {
+        white-space: normal; /* Allow text to wrap */
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .update-wrapper {
+        width: 100%; /* Make wrapper full width */
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .update-heading {
+        font-size: 1.2rem; /* Further adjust font size */
+        margin-bottom: 10px; /* Reduce space below the heading */
+    }
+
+    .update-content p {
+        margin: 0px 10px; /* Adjust margin */
+    }
+}
+@media (max-width: 1200px) {
+    .map-container iframe {
+        max-width: 550px; /* Adjust the max-width for medium screens */
+        height: 400px; /* Adjust height for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .map-container iframe {
+        max-width: 500px; /* Adjust the max-width for smaller screens */
+        height: 350px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .map-container iframe {
+        max-width: 450px; /* Adjust the max-width for tablets */
+        height: 300px; /* Adjust height for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .map-container iframe {
+        max-width: 100%; /* Full width for very small screens */
+        height: 250px; /* Adjust height for very small screens */
+    }
+}
