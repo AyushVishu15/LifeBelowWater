@@ -19,7 +19,7 @@ A website dedicated to educating and spreading awareness about marine life, ocea
 ### Clone the Repository
 ```bash
 git clone https://github.com/ayushvishu15/LifeBelowWater.git
-cd LifeBelowWater
+
 
 ![home page](https://github.com/user-attachments/assets/adfe77e0-1602-46e1-ac2d-2f738fec68a8)
 ![about page](https://github.com/user-attachments/assets/dd435572-d27b-47fd-b7f8-57aca0dbea8f)
