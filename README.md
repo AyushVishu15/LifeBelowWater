@@ -14,11 +14,8 @@ A website dedicated to educating and spreading awareness about marine life, ocea
 
 ---
 
-## ⚙️ Installation & Setup
-
-### Clone the Repository
-```bash
-git clone https://github.com/ayushvishu15/LifeBelowWater.git
+Clone the repository:
+git clone https://github.com/AyushVishu15/LifeBelowWater.git
 
 
 ![home page](https://github.com/user-attachments/assets/adfe77e0-1602-46e1-ac2d-2f738fec68a8)
